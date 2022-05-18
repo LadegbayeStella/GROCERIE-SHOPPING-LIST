@@ -15,7 +15,7 @@ $(document).ready(function () {
     $("#form-control").hide();
 
     newArray1.forEach(function (list){
-      $("#output").append("<li>".concat(list,"<li>"));
+      $("#output").append("<li>".concat(list,""));
     })
 
 
